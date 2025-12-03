@@ -1,5 +1,9 @@
 @import "tailwindcss";
 
+:root {
+	font-family: 'Inter', sans-serif;
+}
+
 @theme {
 	/* Colors */
 	--color-gray-50: oklch(0.985 0.001 106.423);
