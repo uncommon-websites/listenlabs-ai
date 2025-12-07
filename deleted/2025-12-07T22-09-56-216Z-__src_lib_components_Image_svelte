@@ -1,0 +1,7 @@
+<script>
+  export let src;
+  export let alt;
+  export let className = "";
+</script>
+
+<img {src} {alt} class={className} loading="lazy" />
